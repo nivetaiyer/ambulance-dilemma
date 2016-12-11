@@ -1,0 +1,27 @@
+visualization - simulate the policy (pictures for the report)
+picking the optimal between two tradeoff variables for the paramenters that correspond to the best policy
+learning curve - curve of all optimal value functions for different depth and iterations
+  - try out different d and i, fix the best d and i and tune exploration parameter
+  - Keep iterations constant (50, 60, 70....500 or 1000 or more depending on speed), change the depth and find value function and plot series of curves
+  - RUN SIMULATIONS AT THE SAME POINT - s = AmbulanceProblemState(1,7,10,1,0,0)
+  
+  Do the same for different car positions:
+  s = AmbulanceProblemState(2,5,10,1,0,0)
+  s = AmbulanceProblemState(6,1,10,1,0,0)
+  s = AmbulanceProblemState(1,2,10,1,0,0)
+  s = AmbulanceProblemState(8,8,10,1,0,0)
+  
+  iterations 1:20:500
+  depth 1:5:100
+  ITERATION SPLIT
+  Chelsea - 1:320
+  Niveta - 340:500
+  DEPTH SPLIT
+  Chelsea - 1:65
+  Niveta - 70:100
+  
+  
+  
+START REPORT!
+
+SARSOP - try? maybe do we need to implement anything more? is it similar to MCTS in implementation? If yes go for it. Do comparitive studies?

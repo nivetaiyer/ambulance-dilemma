@@ -1,2 +1,1 @@
-# ambulance-dilemma
-Final Project - AA 228
+# ambulance_dilemma
